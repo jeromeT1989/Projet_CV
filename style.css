@@ -4,11 +4,18 @@ html, body {
 	overflow-x: hidden;
 }
 
+h1 { 
+	font-family: 'Bebas Neue', cursive;
+	font-weight: lighter;
+	font-size: 4em;
+}
+
 .navbar {
 	display: flex;
 	order: 2;
 	background-color: #8DA9C4;
 	flex: 1;
+	padding-left: 10%;
 }
 
 .navbar div  {
@@ -22,8 +29,16 @@ html, body {
 	color:#fff;
 }
 
-.box {
-	background-color: 
+#banner {
+	background-image: url(https://miro.medium.com/max/11150/0*4K1fPIhorKUTFUYJ);
+	background-size: cover;
+	height: 300px;
 }
 
-
+#banner .content h1 {
+	display: flex;
+	justify-content: center;
+	align-content: : center;
+	z-index: 5;
+	color: #fff;
+}
