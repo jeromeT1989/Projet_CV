@@ -17,8 +17,12 @@ h2 {
 	font-size: 40px;
 	color: #597081;
 	text-align: center;
-
 }
+
+p {
+font-family: 'Titillium Web', sans-serif;
+}
+
 
 .navbar {
 	display: flex;
@@ -53,4 +57,17 @@ h2 {
 
 #banner h1 {
 	color: #fff;
+}
+
+.row {
+	display: flex;
+}
+
+.column-left {
+	flex: 35%;
+}
+
+.column-right {
+	flex: 65%;
+	padding-right: 10%;
 }
