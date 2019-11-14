@@ -6,22 +6,34 @@ html, body {
 
 h1 { 
 	font-family: 'Bebas Neue', cursive;
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 4em;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	color: #597081;
+	text-align: center;
+
 }
 
 .navbar {
 	display: flex;
-	order: 2;
 	background-color: #8DA9C4;
 	flex: 1;
-	padding-left: 10%;
+	text-decoration: none;
+	color:#fff;
+	padding: 20px 0 20px 5%;
+	justify-content: space-between;
 }
 
 .navbar div  {
 	display: flex;
 	justify-content: center;
-	padding: 20px;
+	padding: 0 20px;
 }
 
 .navbar div a {
@@ -29,16 +41,16 @@ h1 {
 	color:#fff;
 }
 
+
 #banner {
 	background-image: url(https://miro.medium.com/max/11150/0*4K1fPIhorKUTFUYJ);
 	background-size: cover;
 	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-#banner .content h1 {
-	display: flex;
-	justify-content: center;
-	align-content: : center;
-	z-index: 5;
+#banner h1 {
 	color: #fff;
 }
