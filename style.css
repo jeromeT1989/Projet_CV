@@ -70,12 +70,12 @@ p {
 }
 
 #about .column-left {
-	flex: 35%;
+	flex: 30%;
 }
 
 #about .column-right {
-	flex: 65%;
-	padding-right: 10%;
+	flex: 70%;
+	padding-right: 15%;
 }
 
 .profile-sheet {
@@ -87,7 +87,7 @@ p {
 
 .profile-sheet img { 	
 	min-width: 20%;
-	max-width: 60%;
+	max-width: 45%;
 }
 
 .profile-sheet ul {
@@ -102,16 +102,13 @@ ul {
 	margin: 0;
 }
 
-.row {
-	
-}
 
 .blue-background {
 	background-color: #274156;
 	color: #fff;
 	margin: 0;
 	font-size: 25px;
-	padding: 0px 5% 40px 5%;
+	padding: 40px 5% 60px 5%;
 	display: flex;
 	justify-content: space-around;
 }
