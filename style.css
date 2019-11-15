@@ -25,6 +25,13 @@ h3 {
 	padding: 0;
 }
 
+h4 {
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+	font-weight: bold;
+	font-size: 1em;
+}
+
 p {
 	font-family: 'Titillium Web', sans-serif;
 	margin-top: 0;
